@@ -666,6 +666,83 @@ footer span{
     font-size:20px;
     padding: 9px 23px;
   }
+  .about{
+    height: 1000px;
+  }
+  .about .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+.about .about-content .right{
+  text-align:justify;
+  margin: 80px 16px;
+}
+.about .about-content .right .text,
+.about .about-content .right .text span{
+  font-size: 21px;
+}
+.about .about-content .right p{
+  font-size: 18px;
+}
+.service {
+  height: 1400px;
+}
+.service .service-content{
+  flex-direction: column;
+  margin-top: 100px;
+}
+.service .service-content a{
+  margin-bottom: 80px;
+}
+.service .service-content .service-1{
+  margin-top: 0px;
+}
+.skills {
+  height: 1200px;
+}
+.skills .skills-content{
+  flex-direction: column;
+}
+.skills .skills-content .column{
+  width: 80%;;
+}
+.skills .skills-content .left p{
+  font-size: 17px;
+}
+.skills .skills-content .right{
+  margin-top: 100px;
+}
+.team {
+  height: 750px;
+}
+.team .team-content {
+
+}
+.contact{
+  height: 980px;
+}
+.contact .contact-content {
+  flex-direction: column;
+  align-items: none;
+}
+.contact .contact-content .column{
+  width: 90%;
+
+}
+.contact .contact-content .right{
+  margin-left: 0px;
+  margin-top: 50px
+}
+footer{
+  font-size: 14px;
+}
+.topscroll-btn{
+  width:25px;
+  height: 35px;
+  font-size: 16px;
+  text-align: center;
+}
 
 }
 @media(max-width: 500px){
