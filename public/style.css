@@ -1,0 +1,658 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.max-width{
+  max-width: 1300px;
+ padding: 0 80px;
+ margin: auto;
+}
+/* navbar styling */
+.navbar{
+  position: fixed;
+  width: 100%;
+  /*background: crimson;*/
+  padding: 30px 0;
+  font-family: "Ubuntu", sans-serif;
+  transition: all 0.3s ease;
+  z-index: 999;
+}
+.navbar.sticky{
+  padding: 15px 0;
+  background: crimson;
+
+}
+.navbar .logo a{
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.navbar .logo a span{
+  color: crimson;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+  color: black;
+}
+
+.navbar .menu li{
+  list-style: none;
+  display:inline-block;
+
+}
+.navbar  .max-width{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .menu li a{
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+
+
+}
+.navbar .menu li a:hover{
+  color: crimson;
+}
+.navbar.sticky .menu li a:hover{
+  color: black;
+}
+/* menu styling part */
+.navbar .menu-btn{
+  color: #fff;
+  transition: color 0.3s ease;
+  font-size: 24px;
+  cursor: pointer;
+  display:none;
+}
+
+/* home section styling */
+.home{
+  display: flex;
+  background: url("images/image2.png") no-repeat ;
+  background-size: cover;
+  height: 722px;
+  color: #fff;
+  min-height: 500px;
+  font-family: "Ubuntu", sans-serif;
+}
+.home .max-width{
+  margin: auto  0 auto 40px;
+}
+.home .home-content .text-1{
+  font-size: 27px;
+
+}
+.home .home-content .text-2{
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+
+}
+.home .home-content .text-3{
+  font-size: 40px;
+  margin: 5px 0;
+
+}
+.home .home-content .text-3 span{
+  color: crimson;
+  font-weight: 600 ;
+}
+.home .home-content a{
+  display: inline-block;
+  background: crimson;
+  border-radius: 6px;
+  color:white;
+  font-size: 25px;
+  padding: 12px 36px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 2px solid crimson;
+  transition: color 0.3s ease;
+}
+.home .home-content a:hover{
+  color:#fff;
+  background: none;
+
+}
+/* About section styling */
+section{
+  padding: 50px 0;
+}
+.about{
+  font-family: "Poppins", sans-serif;
+height: 722px;
+min-height: 500px;
+
+}
+.about .title{
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
+/* .about .title::before{
+  content: "------------";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  transform: translateX(-50%);
+}:  */
+
+.about .about-content{
+  display: flex;
+
+}
+
+
+.about .about-content .left img{
+width: 400px;
+height:400px;
+object-fit: cover;
+border-radius: 10px;
+background: crimson
+}
+.about .about-content .right{
+  margin: 100px 0 0 100px;
+}
+.about .about-content .right .text{
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: 400;
+}
+.about .about-content .right .text span{
+  color: crimson;
+  font-size: 30px;
+}
+.about .about-content .right a{
+  display: inline-block;
+  background: crimson;
+  border-radius: 10px;
+  color:white;
+  font-size: 16px;
+  padding: 8px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+  border: 2px solid crimson;
+  transition: color 0.3s ease;
+}
+.about .about-content .right a:hover{
+  color:#111;
+  background: none;
+}
+/* Services section */
+.service{
+  height: 722px;
+  min-height: 500px;
+  background: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+}
+.service .title{
+  color: white;
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
+.service .service-content {
+  display: flex;
+  align-items: center;
+  margin-top: 150px;
+  justify-content: space-around;
+
+}
+.service .service-content a h4{
+  color: white;
+  font-size: 22px;
+  font-weight: 400px;
+  transition: color 0.3s ease;
+  margin-bottom: 10px;
+}
+.service .service-content a p{
+  font-size: 18px;
+  font-weight: 400px;
+}
+.service .service-content a{
+  width: 300px;
+  height: 300px;
+  padding: 80px;
+
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.service .service-content a .box{
+  transition: all 0.3s ease;
+}
+.service .service-content a .btn{
+  font-size: 50px;
+  position: relative;
+  bottom: 40px;
+}
+.service .service-content .service-1{
+  background: black;
+  color: crimson;
+
+border: 3px solid crimson;
+}
+.service .service-content .service-2{
+  background: crimson;;
+border: 3px solid black;
+color: black;
+}
+.service .service-content .service-3{
+  background: black;
+  color: crimson;
+border: 3px solid crimson;
+}
+.service .service-content a:hover{
+  background: crimson;
+    border-color: black;
+
+}
+.service .service-content a:hover .box{
+  transform: scale(1.07);
+}
+.service .service-content .service-2:hover{
+  background: black;
+  border-color: crimson;
+  color: black;
+}
+/* Skills section styling */
+.skills{
+  height: 722px;
+  min-height: 500px;
+  font-family: "poppins", sans-serif;
+  text-align: center;
+}
+.skills .title{
+  color: black;
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
+.skills .skills-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.skills .skills-content .column{
+  width: calc(50% - 30px);
+   text-align:left;
+}
+.skills .skills-content .left .text{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.skills .skills-content .left p{
+  text-align: justify;
+  font-size: 17px;
+}
+.skills .skills-content .right .bars{
+  margin-bottom: 40px;
+}
+.skills .skills-content .right .info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.skills .skills-content .right span{
+  font-size: 18px;
+  font-weight: 500;
+}
+.skills .skills-content .right .line{
+  height: 5px;
+  width: 100%;
+  background: lightgrey;
+  position: relative;
+}
+.skills .skills-content .right .line::before{
+  content: "";
+  position: absolute;
+  height: 100%;
+
+  left: 0;
+  top: 0;
+  background: crimson;
+}
+.skills .skills-content .right .html::before{
+  width: 60%;
+}
+.skills .skills-content .right .css::before{
+  width: 50%;
+}
+.skills .skills-content .right .js::before{
+  width: 40%;
+}
+.skills .skills-content .right .node::before{
+  width: 40%;
+}
+.skills .skills-content .right .react::before{
+  width: 30%;
+}
+
+
+/* team styling */
+.team{
+  background: black;
+  height: 722px;
+  min-height: 500px;
+  font-family: "poppins", sans-serif;
+  color: white;
+  text-align: center;
+}
+.team .title{
+  color: white;
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
+.team .carousel .card{
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.team .carousel .card:hover{
+  background: crimson;
+}
+.team .carousel .card .text{
+  font-size: 25px;
+  font-family: 500;
+  margin: 10px 0 7px 0;
+
+}
+.team .carousel .card .box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+.team .carousel .card:hover .box{
+  transform: scale(1.05);
+}
+.team .carousel .card img{
+  height:200px;
+  width: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid crimson;
+  transition: all 0.3s ease;
+}
+.team .carousel .card:hover img{
+  border: 5px solid white;
+}
+.owl-dots{
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot{
+  height:13px;
+  width:13px;
+  border-radius: 50%;
+  border: 2px solid crimson!important;
+  outline: none!important;
+  margin: 0 5px;
+}
+.owl-dot.active{
+  width: 35px;
+  border-radius: 14px;
+}
+.owl-dot.active,
+.owl-dot.active:hover{
+  background: crimson!important;
+}
+/* Contact page styling */
+.contact{
+  height: 722px;
+  min-height: 500px;
+  font-family: "Poppins", sans-serif;
+
+}
+.contact .title{
+  text-align: center;
+  color: black;
+  position: relative;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+}
+.contact .contact-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact .contact-content .column{
+  width: calc(50% - -30px);
+}
+.contact .contact-content .left p{
+  text-align: justify;;
+}
+.contact .contact-content .text{
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.contact .contact-content .left .icons{
+  margin: 10px 0;
+}
+.contact .contact-content .left .row{
+  display: flex;
+  height: 65px;
+  align-items: center;
+}
+.contact .contact-content .left .info{
+  margin-left: 30px;
+}
+.contact .contact-content .left .row .icon{
+  font-size: 25px;
+  color: crimson;
+}
+.contact .contact-content .left .info .head{
+  font-weight: 500;
+}
+.contact .contact-content .left .info .sub-title{
+  color: #333;
+}
+.contact .right{
+  margin-left: 40px;
+}
+.contact .right form .fields{
+  display: flex;
+}
+.contact .right form .name{
+  margin-right: 10px;
+}
+.contact .right form .email{
+  margin-left: 10px;
+}
+
+.contact .right form .field{
+  height: 45px;
+  width: 100%;
+  margin-bottom: 20px;
+
+}
+.contact .right form .field input{
+  width: 100%;
+  height:100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 17px;
+  font-family: "poppins", sans-serif;
+
+}
+.contact .right form .textarea{
+  height:100px;
+}
+.contact .right form .textarea textarea{
+  height:100%;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 6px;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 17px;
+  font-family: "poppins", sans-serif;
+  resize: none;
+}
+.contact .right .btn button{
+  background: crimson;
+  color: white;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 7px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 7px;
+  border: 1px solid crimson;
+  transition: all 0.3s ease;
+}
+.contact .right .btn button:hover{
+  background: white;
+  color: black;
+}
+.topscroll-btn{
+  width: 40px;
+  position: fixed;
+  background: crimson;
+  color: white;
+  bottom: 40px;
+  right:40px;
+  font-size: 26px;
+  border-radius:  8px;
+  height:50px;
+  z-index: 999;
+  text-align: center;
+}
+
+/* responsive media query starts */
+@media (max-width: 1147px){
+  .maxwidth{
+    margin-left: 0;
+}}
+@media (max-width: 991px){
+  .max-width{
+   padding: 0 50px;
+  }
+}
+@media (max-width: 947px){
+
+  .navbar .menu-btn{
+
+    display:block;
+    z-index: 999;
+  }
+  .navbar .menu{
+    position: fixed;
+    background: #111;
+    height:100vh;
+    width:100%;
+    left: -100%;
+    top:0;
+    text-align: center;
+    padding-top: 80px;
+    transition: all 0.3s ease;
+  }
+  .navbar .menu.active{
+    left:0;
+  }
+
+  .navbar .menu li{
+    display:block;
+  }
+  .navbar .menu li a{
+    display: inline-block;
+    margin: 20px 0;
+    font-size: 25px;
+  }
+ .menu-btn i.active:before{
+    content: "\f00d";
+
+  }
+  .navbar .menu-btn:hover{
+    color: crimson;
+  }
+  .navbar.sticky .menu-btn:hover{
+    color: black;
+  }
+  .navbar .menu-btn.active{
+    color: white;
+  }
+  .navbar .menu-btn.active:hover{
+    color: white;
+  }
+  .home .home-content .text-2{
+    font-size: 70px;
+
+
+  }
+  .home .home-content .text-3{
+    font-size: 35px;
+
+  }
+  .home .home-content a{
+    font-size: 23px;
+    padding:10px 30px;
+  }
+}
+@media(max-width: 690px){
+  .max-width{
+    padding: 0 23px;
+  }
+  .home .home-content .text-2{
+    font-size: 60px;
+
+
+  }
+  .home .home-content .text-3{
+    font-size: 32px;
+
+  }
+  .home .home-content a{
+    font-size:20px;
+    padding: 9px 23px;
+  }
+
+}
+@media(max-width: 500px){
+  .home .home-content .text-2{
+    font-size: 50px;
+
+
+  }
+  .home .home-content .text-3{
+    font-size: 27px;
+
+  }
+}
