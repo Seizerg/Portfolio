@@ -673,10 +673,13 @@ footer span{
     flex-direction: column;
     text-align: center;
   }
-}
 .about .about-content .right{
   text-align:justify;
   margin: 80px 16px;
+}
+.about .about-content .left img{
+  width:300px;
+  height: 300px;
 }
 .about .about-content .right .text,
 .about .about-content .right .text span{
@@ -761,6 +764,10 @@ footer{
   .about .about-content {
     flex-direction: column;
     text-align: center;
+  }
+  .about .about-content .left img{
+    width: 250px;
+    height: 250px;
   }
 .about .about-content .right{
   text-align:justify;
@@ -848,6 +855,11 @@ footer{
     flex-direction: column;
     text-align: center;
   }
+  .about .about-content .left img{
+    width:200px;
+    height: 200px;
+  }
+
 .about .about-content .right{
   text-align:justify;
   margin: 80px 16px;
