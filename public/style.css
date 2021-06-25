@@ -831,7 +831,7 @@ footer{
   font-size: 16px;
   text-align: center;
 }}
-@media(max-width: 400px){
+@media(max-width: 350px){
   .home .home-content .text-2{
     font-size: 50px;
 
