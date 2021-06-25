@@ -5,6 +5,9 @@
   box-sizing: border-box;
   text-decoration: none;
 }
+html{
+  scroll-behavior: smooth;
+}
 .max-width{
   max-width: 1300px;
  padding: 0 80px;
@@ -543,19 +546,39 @@ border: 3px solid crimson;
   color: black;
 }
 .topscroll-btn{
-  width: 40px;
   position: fixed;
+  padding: 6px;
   background: crimson;
   color: white;
-  bottom: 40px;
+  bottom: 10px;
   right:40px;
-  font-size: 26px;
-  border-radius:  8px;
-  height:50px;
+  font-size: 40px;
+  border-radius:  6px;
   z-index: 999;
-  text-align: center;
+  transform: scale(1.2,0.9);
+  pointer-events: none;
+  opacity: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
-
+.topscroll-btn.show{
+  opacity:1;
+  bottom:40px;
+  pointer-events: auto;
+}
+footer {
+background: black;
+color: white;
+width: 100%;
+height: 40px;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+font-family: "Ubuntu", sans-serif;
+}
+footer span{
+  color: crimson;
+}
 /* responsive media query starts */
 @media (max-width: 1147px){
   .maxwidth{

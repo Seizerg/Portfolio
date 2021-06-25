@@ -8,7 +8,16 @@ $(document).ready(function(){
       $(".navbar").removeClass("sticky");
 
     }
-  })
+    if(this.scrollY>500){
+      $(".topscroll-btn").addClass("show");
+    }
+    else {
+      $(".topscroll-btn").removeClass("show");
+    }})
+    //scrolling up function
+    $(".topscroll-btn").click(function(){
+      $("html").animate({scrollTop:9})
+    })
   // typing animation
   var typed= new Typed(".typing",{
     strings: ["Developer","UX/UI Designer","Gamer","Overthinker" ],
@@ -58,6 +67,9 @@ $('.owl-carousel').owlCarousel({
     }
 
 });
-
-
+// scroll btn scripting
+$("#top-scroll").click(function(){
+  $("html body").animate({
+    scrollTop: $("#home").offset().top},2000);
+  });
 });
