@@ -759,7 +759,7 @@ footer{
 
   }
   .about{
-    height: 1000px;
+    height: 950px;
   }
   .about .about-content {
     flex-direction: column;
@@ -775,10 +775,11 @@ footer{
 }
 .about .about-content .right .text,
 .about .about-content .right .text span{
-  font-size: 21px;
+  font-size: 17px;
+  font-weight: 900;
 }
 .about .about-content .right p{
-  font-size: 18px;
+  font-size: 17px;
 }
 .service {
   height: 1400px;
@@ -794,7 +795,7 @@ footer{
   margin-top: 0px;
 }
 .skills {
-  height: 1200px;
+  height: 1250px;
 }
 .skills .skills-content{
   flex-direction: column;
@@ -806,7 +807,10 @@ footer{
   font-size: 17px;
 }
 .skills .skills-content .right{
-  margin-top: 100px;
+  margin-top: 80px;
+}
+.skills .skills-content .right .bars{
+  margin-bottom: 25px;
 }
 .team {
   height: 750px;
