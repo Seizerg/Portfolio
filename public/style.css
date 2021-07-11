@@ -617,13 +617,14 @@ footer span{
   }
   .navbar .menu{
     position: fixed;
-    background: #111;
+    background: #293B5F;
     height:100vh;
     width:100%;
     left: -100%;
     top:0;
     text-align: center;
     padding-top: 80px;
+
     transition: all 0.3s ease;
   }
   .navbar .menu.active{
@@ -637,13 +638,14 @@ footer span{
     display: inline-block;
     margin: 20px 0;
     font-size: 25px;
+    color:#B2AB8C;
   }
  .menu-btn i.active:before{
     content: "\f00d";
 
   }
   .navbar .menu-btn:hover{
-    color:#B2AB8C;
+    color:#DBE2EF;
   }
   .navbar.sticky .menu-btn:hover{
     color: black;
