@@ -37,6 +37,9 @@ $(document).ready(function(){
     $(".menu-btn i").toggleClass("active");
     $(".menu-btn").toggleClass("active");
   });
+  $(".navbar .menu li a").click(function(){
+    $(".navbar .menu").removeClass("active");
+  })
   //owl OwlCarousel
 $('.owl-carousel').owlCarousel({
     margin: 20,

@@ -18,27 +18,30 @@ html{
   position: fixed;
   width: 100%;
   /*background: crimson;*/
-  padding: 30px 0;
+  padding: 20px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
   z-index: 999;
 }
 .navbar.sticky{
   padding: 15px 0;
-  background: crimson;
+  background:  #B2AB8C;
 
 }
 .navbar .logo a{
-  color: #fff;
+  color:  #DBE2EF;
   font-size: 35px;
   font-weight: 600;
 }
 .navbar .logo a span{
-  color: crimson;
+  color:  #B2AB8C;
     transition: all 0.3s ease;
 }
+.navbar.sticky .logo a{
+  color:#293B5F;
+}
 .navbar.sticky .logo a span{
-  color: black;
+  color: #DBE2EF;
 }
 
 .navbar .menu li{
@@ -52,7 +55,7 @@ html{
   justify-content: space-between;
 }
 .navbar .menu li a{
-  color: white;
+  color: #DBE2EF;
   font-size: 18px;
   font-weight: 500;
   margin-left: 25px;
@@ -61,14 +64,17 @@ html{
 
 }
 .navbar .menu li a:hover{
-  color: crimson;
+  color: #B2AB8C;
 }
 .navbar.sticky .menu li a:hover{
-  color: black;
+  color:#DBE2EF;
+}
+.navbar.sticky .menu li a{
+  color:#293B5F;
 }
 /* menu styling part */
 .navbar .menu-btn{
-  color: #fff;
+  color: #DBE2EF;
   transition: color 0.3s ease;
   font-size: 24px;
   cursor: pointer;
@@ -78,15 +84,20 @@ html{
 /* home section styling */
 .home{
   display: flex;
-  background: url("images/image2.png") no-repeat ;
+  background: url("images/bkgd3.jpg") no-repeat ;
   background-size: cover;
   height: 722px;
-  color: #fff;
+  color: #DBE6FD;
   min-height: 500px;
   font-family: "Ubuntu", sans-serif;
+
 }
 .home .max-width{
   margin: auto  0 auto 40px;
+}
+.home .home-content{
+  position: relative;
+  left: 800px;
 }
 .home .home-content .text-1{
   font-size: 27px;
@@ -104,24 +115,26 @@ html{
 
 }
 .home .home-content .text-3 span{
-  color: crimson;
+  color: #B2AB8C;
   font-weight: 600 ;
 }
 .home .home-content a{
   display: inline-block;
-  background: crimson;
+  background:#B2AB8C;
   border-radius: 6px;
-  color:white;
+  color:#293B5F;
   font-size: 25px;
+  font-weight: 500;
   padding: 12px 36px;
   margin-top: 20px;
   cursor: pointer;
-  border: 2px solid crimson;
+  border: 2px solid #B2AB8C;
   transition: color 0.3s ease;
+
 }
 .home .home-content a:hover{
-  color:#fff;
-  background: none;
+  color:#293B5F;
+  background: #DBE6FD;
 
 }
 /* About section styling */
@@ -132,6 +145,7 @@ section{
   font-family: "Poppins", sans-serif;
 height: 722px;
 min-height: 500px;
+background-color: #DBE2EF;
 
 }
 .about .title{
@@ -162,8 +176,9 @@ min-height: 500px;
 width: 400px;
 height:400px;
 object-fit: cover;
+border: 5px solid #B2AB8C;
 border-radius: 10px;
-background: crimson
+  box-shadow: 3px 3px 15px 7px grey;
 }
 .about .about-content .right{
   margin: 100px 0 0 100px;
@@ -174,37 +189,38 @@ background: crimson
   font-weight: 400;
 }
 .about .about-content .right .text span{
-  color: crimson;
+  color:#B2AB8C;
   font-size: 30px;
+  font-weight: 600;
 }
 .about .about-content .right a{
   display: inline-block;
-  background: crimson;
+  background: #B2AB8C;
   border-radius: 10px;
-  color:white;
+  color:#DBE2EF;
   font-size: 16px;
   padding: 8px 20px;
   margin-top: 20px;
   cursor: pointer;
-  border: 2px solid crimson;
+  border: 2px solid #B2AB8C;
   transition: color 0.3s ease;
 }
 .about .about-content .right a:hover{
-  color:#111;
+  color:#293B5F;
   background: none;
 }
 /* Services section */
 .service{
   height: 722px;
   min-height: 500px;
-  background: black;
+  background: #112D4E;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   font-family: "Poppins", sans-serif;
 }
 .service .title{
-  color: white;
+  color: #DBE2EF;
   position: relative;
   font-family: "Ubuntu", sans-serif;
   text-align: center;
@@ -221,7 +237,7 @@ background: crimson
 
 }
 .service .service-content a h4{
-  color: white;
+  color: #DBE2EF;
   font-size: 22px;
   font-weight: 400px;
   transition: color 0.3s ease;
@@ -237,6 +253,7 @@ background: crimson
   padding: 80px;
 
   border-radius: 10px;
+  box-shadow: 3px 3px 15px 7px #111;
   transition: all 0.3s ease;
 }
 .service .service-content a .box{
@@ -248,33 +265,33 @@ background: crimson
   bottom: 40px;
 }
 .service .service-content .service-1{
-  background: black;
-  color: crimson;
+  background: #293B5F;
+  color: #B2AB8C;
 
-border: 3px solid crimson;
+border: 3px solid #B2AB8C;
 }
 .service .service-content .service-2{
-  background: crimson;;
-border: 3px solid black;
-color: black;
+  background:#B2AB8C;
+border: 3px solid #293B5F;
+color: #293B5F;
 }
 .service .service-content .service-3{
-  background: black;
-  color: crimson;
-border: 3px solid crimson;
+  background:#293B5F;
+  color: #B2AB8C;
+border: 3px solid #B2AB8C;
 }
 .service .service-content a:hover{
-  background: crimson;
-    border-color: black;
+  background: #B2AB8C;
+    border-color: #293B5F;
 
 }
 .service .service-content a:hover .box{
   transform: scale(1.07);
 }
 .service .service-content .service-2:hover{
-  background: black;
-  border-color: crimson;
-  color: black;
+  background: #293B5F;
+  border-color: #B2AB8C;
+  color: #293B5F;
 }
 /* Skills section styling */
 .skills{
@@ -282,9 +299,10 @@ border: 3px solid crimson;
   min-height: 500px;
   font-family: "poppins", sans-serif;
   text-align: center;
+  background: #DBE2EF;
 }
 .skills .title{
-  color: black;
+  color:#293B5F;
   position: relative;
   font-family: "Ubuntu", sans-serif;
   font-size: 40px;
@@ -336,7 +354,7 @@ border: 3px solid crimson;
 
   left: 0;
   top: 0;
-  background: crimson;
+  background: #B2AB8C;
 }
 .skills .skills-content .right .html::before{
   width: 60%;
@@ -357,15 +375,15 @@ border: 3px solid crimson;
 
 /* team styling */
 .team{
-  background: black;
+  background: #112D4E;
   height: 722px;
   min-height: 500px;
   font-family: "poppins", sans-serif;
-  color: white;
+  color:#DBE2EF;
   text-align: center;
 }
 .team .title{
-  color: white;
+  color: #DBE2EF;
   position: relative;
   font-family: "Ubuntu", sans-serif;
   font-size: 40px;
@@ -374,7 +392,7 @@ border: 3px solid crimson;
   padding-bottom: 20px;
 }
 .team .carousel .card{
-  background: #222;
+  background:#293B5F;
   border-radius: 6px;
   padding: 25px 35px;
   text-align: center;
@@ -382,7 +400,7 @@ border: 3px solid crimson;
   cursor: pointer;
 }
 .team .carousel .card:hover{
-  background: crimson;
+  background:#B2AB8C;
 }
 .team .carousel .card .text{
   font-size: 25px;
@@ -405,11 +423,11 @@ border: 3px solid crimson;
   width: 200px;
   object-fit: cover;
   border-radius: 50%;
-  border: 5px solid crimson;
+  border: 5px solid#B2AB8C;
   transition: all 0.3s ease;
 }
 .team .carousel .card:hover img{
-  border: 5px solid white;
+  border: 5px solid #DBE2EF;
 }
 .owl-dots{
   text-align: center;
@@ -419,7 +437,7 @@ border: 3px solid crimson;
   height:13px;
   width:13px;
   border-radius: 50%;
-  border: 2px solid crimson!important;
+  border: 2px solid #B2AB8C!important;
   outline: none!important;
   margin: 0 5px;
 }
@@ -429,18 +447,19 @@ border: 3px solid crimson;
 }
 .owl-dot.active,
 .owl-dot.active:hover{
-  background: crimson!important;
+  background:#B2AB8C!important;
 }
 /* Contact page styling */
 .contact{
   height: 722px;
   min-height: 500px;
   font-family: "Poppins", sans-serif;
+  background: #DBE2EF;
 
 }
 .contact .title{
   text-align: center;
-  color: black;
+  color: #293B5F;
   position: relative;
   font-family: "Ubuntu", sans-serif;
   font-size: 40px;
@@ -477,7 +496,7 @@ border: 3px solid crimson;
 }
 .contact .contact-content .left .row .icon{
   font-size: 25px;
-  color: crimson;
+  color: #B2AB8C;
 }
 .contact .contact-content .left .info .head{
   font-weight: 500;
@@ -530,7 +549,7 @@ border: 3px solid crimson;
   resize: none;
 }
 .contact .right .btn button{
-  background: crimson;
+  background: #B2AB8C;
   color: white;
   font-size: 16px;
   font-weight: 400;
@@ -538,24 +557,24 @@ border: 3px solid crimson;
   border-radius: 6px;
   cursor: pointer;
   margin-left: 7px;
-  border: 1px solid crimson;
+  border: 1px solid#B2AB8C;
   transition: all 0.3s ease;
 }
 .contact .right .btn button:hover{
   background: white;
-  color: black;
+  color:#293B5F;
 }
 .topscroll-btn{
   position: fixed;
   padding: 6px;
-  background: crimson;
+  background: #B2AB8C;
   color: white;
   bottom: 10px;
   right:40px;
   font-size: 40px;
   border-radius:  6px;
   z-index: 999;
-  transform: scale(1.2,0.9);
+  transform: scale(1.0,0.75);
   pointer-events: none;
   opacity: 0;
   cursor: pointer;
@@ -567,7 +586,7 @@ border: 3px solid crimson;
   pointer-events: auto;
 }
 footer {
-background: black;
+background: #293B5F;
 color: white;
 width: 100%;
 height: 40px;
@@ -577,7 +596,7 @@ font-weight: 400;
 font-family: "Ubuntu", sans-serif;
 }
 footer span{
-  color: crimson;
+  color:#B2AB8C;
 }
 /* responsive media query starts */
 @media (max-width: 1147px){
@@ -624,7 +643,7 @@ footer span{
 
   }
   .navbar .menu-btn:hover{
-    color: crimson;
+    color:#B2AB8C;
   }
   .navbar.sticky .menu-btn:hover{
     color: black;
@@ -637,7 +656,9 @@ footer span{
   }
   .home .home-content .text-2{
     font-size: 70px;
-
+  }
+ .home .home-content{
+   left:250px;
 
   }
   .home .home-content .text-3{
@@ -652,6 +673,12 @@ footer span{
 @media(max-width: 690px){
   .max-width{
     padding: 0 23px;
+  }
+  .home{
+    background: url("images/formobile.jpg");
+  }
+  .home .home-content{
+    left:0;
   }
   .home .home-content .text-2{
     font-size: 60px;
