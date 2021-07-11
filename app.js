@@ -2,7 +2,7 @@ const express= require("express");
 const mongoose= require("mongoose")
 const body= require("body-parser");
 const app= express();
-mongoose.connect("mongodb+srv://admin-sahilsinha:portfolio@cluster0.ego4z.mongodb.net//clientDB",{useNewUrlParser:true, useUnifiedTopology:true})
+mongoose.connect("mongodb+srv://admin-sahilsinha:portfolio@cluster0.ego4z.mongodb.net/clientDB",{useNewUrlParser:true, useUnifiedTopology:true})
 const clientSchema= new mongoose.Schema({
   name:{
     type:String,
