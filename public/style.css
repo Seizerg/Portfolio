@@ -193,7 +193,7 @@ border-radius: 10px;
   font-size: 30px;
   font-weight: 600;
 }
-.about .about-content .right a{
+.about .about-content .right button{
   display: inline-block;
   background: #B2AB8C;
   border-radius: 10px;
