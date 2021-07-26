@@ -48,7 +48,7 @@ app.post("/",function(req,res){
 
 })
 app.post("/download",function(req,res){
-  res.sendFile(__dirname +"/public/Resume.pdf")
+  res.send("Work in progress")
 })
 
 

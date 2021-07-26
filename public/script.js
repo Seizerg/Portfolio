@@ -20,13 +20,13 @@ $(document).ready(function(){
     })
   // typing animation
   var typed= new Typed(".typing",{
-    strings: ["Developer","UI Designer","Gamer","Overthinker" ],
+    strings: ["Developer","UI Designer","Coder","Melophile" ],
     typeSpeed: 100,
     backSpeed:60,
     loop: true
   })
   var typed= new Typed(".typing-2",{
-    strings: ["Developer","UI Designer","Gamer","Overthinker" ],
+    strings: ["Developer","UI Designer","Coder","Melophile" ],
     typeSpeed: 100,
     backSpeed:60,
     loop: true
