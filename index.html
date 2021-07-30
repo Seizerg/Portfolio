@@ -1,276 +1,347 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg></script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
 
-  </head>
-  <body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-auto-replace-svg></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-    <nav class="navbar">
-      <div class="max-width">
-        <div class="logo">
-          <a href="#">Portfo<span>lio.</span></a>
-            </div>
-          <ul class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#service">Services</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#project">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+</head>
 
-          </ul>
-          <div class="menu-btn">
-            <i class="fas fa-bars"></i>
+<body>
 
+  <nav class="navbar">
+    <div class="max-width">
+      <div class="logo">
+        <a href="#">Portfo<span>lio.</span></a>
+      </div>
+      <ul class="menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#certificate">Certifications</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+
+      </ul>
+      <div class="menu-btn">
+        <i class="fas fa-bars"></i>
+
+      </div>
+
+
+
+    </div>
+
+  </nav>
+  <div class="topscroll-btn">
+    <i class="fas fa-angle-up" id="top-scroll"></i>
+  </div>
+  <!-- home section starts -->
+  <section class="home" id="home">
+    <div class="max-width">
+      <div class="home-content">
+        <div class="text-1">Hello, my name is</div>
+        <div class="text-2">Sahil Sinha</div>
+        <div class="text-3">And I am a <span class="typing"></span></div>
+        <a href="#project">My Projects</a>
+
+      </div>
+
+    </div>
+  </section>
+  <!-- About section -->
+  <section class="about" id="about">
+    <div class="max-width">
+      <h2 class="title">About Me</h2>
+      <div class="about-content">
+        <div class="column left">
+          <img src="images/myself2.jpeg" alt="self img">
+
+        </div>
+        <div class="column right">
+          <div class="text">Hi I am Sahil and I am a <span class="typing-2"></span></div>
+          <p>I am currently pursuing my BTECH degree in Automobile at the Manipal Institute Of Technology. I am passionate about web developing, coding and designing. Over the last few months this has become a real passion of mine. I recently
+            qualified in full stack web development as well as python language and I am constantly working hard to enhance my skill set.
+          </p>
+          <form class="" action="/download" method="post">
+            <button type="submit">Download CV</button>
+          </form>
+
+
+        </div>
+      </div>
+
+    </div>
+    <!-- certificate section -->
+  </section>
+  <section class="certificate" id="certificate">
+    <div class="max-width">
+      <h2 class="title">Certifications</h2>
+
+      <div class="certificate-content">
+        <form class="" action="/certificates" method="post">
+          <div class="up">
+
+            <a class="certificate p1" href="">
+              <button type="submit" name="button" value="web">
+                <div class="box">
+                  <h4>Full stack Web development</h4>
+                  <p>Udemy (Online)</p>
+                  <p class="date">01/2021-07/2021</p>
+                </div>
+              </button>
+
+
+            </a>
+
+            <a class="certificate p2" href="">
+              <button type="submit" name="button" value="python1">
+                <div class="box">
+                  <h4>Interactive Coding with Python(part1)</h4>
+                  <p>Coursera (Online) </p>
+                  <p class="date">01/2021-07/2021</p>
+                </div>
+              </button>
+
+            </a>
+            <a class="certificate p3" href="">
+              <button type="submit" name="button" value="python2">
+                <div class="box">
+                  <h4>Interactive Coding with Python(part2)</h4>
+                  <p>Coursera (Online) </p>
+                  <p class="date">01/2021-07/2021</p>
+                </div>
+              </button>
+
+            </a>
           </div>
+
+          <div class="down">
+            <a class="certificate p4" href="">
+              <button type="submit" name="button" value="python3">
+                <div class="box">
+                  <h4>Principles of Computing</h4>
+                  <p>Coursera (Online)</p>
+                  <p class="date">01/2021-07/2021</p>
+                </div>
+              </button>
+
+            </a>
+            <a class="certificate p5" href="">
+              <button type="submit" name="button" value="training">
+                <div class="box">
+                  <h4>Industrial Training</h4>
+                  <p>ECR/RNCC (Offline)</p>
+                  <p class="date">06/2021-07/2021</p>
+                </div>
+              </button>
+
+            </a>
+          </div>
+        </form>
+
+
 
 
 
       </div>
 
-    </nav>
-    <div class="topscroll-btn">
-  <i class="fas fa-angle-up" id="top-scroll"></i>
-</div>
-    <!-- home section starts -->
-    <section class="home" id="home">
-      <div class="max-width">
-        <div class="home-content">
-          <div class="text-1">Hello, my name is</div>
-          <div class="text-2">Sahil Sinha</div>
-          <div class="text-3">And I am a <span class="typing"></span></div>
-          <a href="#">Hire me</a>
+    </div>
+
+  </section>
+
+  <!-- Skills section -->
+  <section class="skills" id="skills">
+    <div class="max-width">
+      <h2 class="title">My Skills</h2>
+      <div class="skills-content">
+        <div class="left column ">
+          <div class="text">My creative skills and experience
+
+          </div>
+          <p>I have good experience and understanding about both frontend and backend parts. Currently, I am trying to master React.js for the frontend framework as well as using Node.js for the backend part. I am also trying to learn in depths about
+            about the NoSQL database like MongoDB as well as in user’s password encryption field. Whilst studying I am also working on a range of personal projects which I have displayed in my projects section. You can also use the Github links below
+            to gain access to these.
+          </p>
+          <p>Whilst my main interests center around technology and developing, I enjoy a range of hobbies. These include sketching, listening to music, playing e-sports and going to the gym. All of these things keep me self motivated.
+          </p>
+
 
         </div>
+        <div class="skill-carousel owl-carousel">
+          <div class="skills-card">
+            <div class="skills-box">
+              <img src="images/logo1.png" alt="">
+              <p>React.js</p>
+
+            </div>
+
+          </div>
+          <div class="skills-card">
+            <div class="skills-box">
+              <img src="images/logo2.png" alt="">
+              <p>Node.js</p>
+
+            </div>
+
+          </div>
+          <div class="skills-card">
+            <div class="skills-box">
+              <img src="images/logo7.jpg" alt="">
+              <p>Python</p>
+
+            </div>
+
+          </div>
+          <div class="skills-card">
+            <div class="skills-box">
+              <img src="images/logo6.jpg" alt="">
+              <p>MongoDB</p>
+
+            </div>
+
+          </div>
+          <div class="skills-card">
+            <div class="skills-box">
+              <img src="images/logo4.jpg" alt="">
+              <p>CSS|Bootstrap</p>
+
+            </div>
+
+          </div>
+          <div class="skills-card">
+            <div class="skills-box">
+              <img src="images/logo5.png" alt="">
+              <p>JS|Jquery</p>
+
+            </div>
+
+          </div>
+          <div class="skills-card">
+            <div class="skills-box">
+              <img src="images/logo3.jpg" alt="">
+              <p>HTML5</p>
+
+            </div>
+
+          </div>
+
+        </div>
+
 
       </div>
-      </section>
-      <!-- About section -->
-      <section class="about" id="about">
-        <div class="max-width">
-          <h2 class="title">About Me</h2>
-          <div class="about-content">
-            <div class="column left">
-              <img src="images/self1.webp" alt="self img">
+    </div>
 
-            </div>
-            <div class="column right">
-              <div class="text">Hi I am Sahil and I am a <span class="typing-2"></span></div>
-              <p>Hey There!! I am looking for offers and job opportunities as a full stack web developer.</p>
-                 <form class="" action="/download" method="post">
-                     <button type="submit" >Download CV</button>
-                 </form>
+    </div>
 
-
-            </div>
-          </div>
-
-        </div>
-<!-- Service section -->
-      </section>
-      <section class="service" id="service">
-        <div class="max-width">
-          <h2 class="title">My Services</h2>
-
-          <div class="service-content">
-
-              <a class="service-1" href="">
-                <div class="box">
-                  <i class="fas fa-code btn"></i>
-                  <h4>FrontEnd developer</h4>
-                  <p>Lorem ipsum dolor sit amet, </p>
-                </div>
-
-              </a>
-              <a class="service-2" href="">
-                <div class="box">
-                  <i class="fas fa-paint-brush btn"></i>
-                  <h4>UI/UX designer</h4>
-                  <p>Lorem ipsum dolor sit amet,  </p>
-                </div>
-
-              </a>
-              <a class="service-3" href="">
-                <div class="box">
-                  <i class="fa fa-server btn"></i>
-                  <h4>Backend developer</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur
-                    r </p>
-                </div>
-
-              </a>
-
-
-          </div>
-
-        </div>
-
-      </section>
-      <!-- Skills section -->
-      <section class="skills" id="skills">
-        <div class="max-width">
-          <h2 class="title">My Skills</h2>
-          <div class="skills-content">
-            <div class="left column ">
-              <div class="text">My creative skills and experience
-
-              </div>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lobortis scelerisque fermentum dui faucibus in ornare quam. Nulla facilisi morbi tempus iaculis. Vitae elementum curabitur vitae nunc sed. Dignissim cras tincidunt lobortis feugiat vivamus at augue eget. Cum sociis natoque penatibus et. Lacus vestibulum sed arcu non odio euismod lacinia at. Sit amet commodo nulla facilisi nullam vehicula. Nunc faucibus a pellentesque sit amet porttitor eget. Varius morbi enim nunc faucibus a pellentesque sit amet porttitor. Convallis aenean et tortor at risus </p>
-
-
-            </div>
-              <div class="right column">
-                <div class="bars">
-                  <div class="info">
-                    <span>HTML</span>
-                    <span>60%</span>
-
-                  </div>
-                  <div class="line html">
-
-                  </div>
-
-                </div>
-                <div class="bars">
-                  <div class="info">
-                    <span>CSS</span>
-                    <span>50%</span>
-
-                  </div>
-                  <div class="line css">
-
-                  </div>
-
-                </div>
-                <div class="bars">
-                  <div class="info">
-                    <span>JavaScript</span>
-                    <span>40%</span>
-
-                  </div>
-                  <div class="line js">
-
-                  </div>
-
-                </div>
-                <div class="bars">
-                  <div class="info">
-                    <span>Node.js</span>
-                    <span>40%</span>
-
-                  </div>
-                  <div class="line node">
-
-                  </div>
-
-                </div>
-                <div class="bars">
-                  <div class="info">
-                    <span>React</span>
-                    <span>30%</span>
-
-                  </div>
-                  <div class="line react">
-
-                  </div>
-
-                </div>
-
-                </div>
-
-              </div>
-          </div>
-
-        </div>
-
-      </section>
-      <!-- project section -->
+  </section>
+  <!-- project section -->
   <section class="project" id="project">
     <div class="max-width">
- <h2 class="title">My Projects</h2>
- <div class="project-content">
-   <div class="carousel owl-carousel">
-     <a href="https://intense-tor-25152.herokuapp.com/">
-       <div class="card ">
-         <div class="box">
-           <img src="images/logos/netflix.jpg" alt="">
-           <div class="text">Netflix-Clone</div>
-             <p>Using React</p>
-         </div>
+      <h2 class="title">My Projects</h2>
+      <div class="project-content">
+        <div class="carousel owl-carousel">
+          <a href="https://intense-tor-25152.herokuapp.com/">
+            <div class="card ">
+              <div class="box">
+                <img src="images/logos/netflix.jpg" alt="">
+                <div class="text">Netflix-Clone</div>
+                <p>Using React</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="card">
+              <div class="box">
+                <img src="images/logos/ecom.jpg" alt="">
+                <div class="text">E-Commerce Website</div>
+                <p>Using</p>
+              </div>
+
+            </div>
+          </a>
+          <a href="#">
+            <div class="card">
+              <div class="box">
+                <img src="images/logos/Gkeep.png" alt="">
+                <div class="text">Google Keep clone</div>
+                <p>using React</p>
+              </div>
+
+            </div>
+          </a>
+          <a href="#">
+            <div class="card">
+              <div class="box">
+                <img src="images/logos/github.png" alt="">
+                <div class="text">Github clone</div>
+                <p>Using Html css</p>
+              </div>
+
+            </div>
+          </a>
+          <a href="#">
+            <div class="card">
+              <div class="box">
+                <img src="images/logos/workinprogress.jpg" alt="">
+                <div class="text">Upcoming project</div>
+                <p>Using</p>
+              </div>
+
+            </div>
+          </a>
+
+        </div>
+        <div class="github">
+          <div class="github-content">
+            <div class="github-left">
+              <i class="fab fa-github icon"></i>
+            </div>
+            <div class="github-right">
+              <h2>Github links</h2>
+              <p>All my projects can be found through links below</p>
+              <a class="git-btn" href="https://github.com/Seizerg">
+                Github Profile
+              </a>
+            </div>
+
+
+
+          </div>
+
+        </div>
+      </div>
+
+
+
     </div>
-     </a>
-     <a href="#">
-     <div class="card">
-       <div class="box">
-         <img src="images/logos/ecom.jpg" alt="">
-         <div class="text">E-Commerce Website</div>
-           <p>Using</p>
-       </div>
 
-     </div>
-     </a>
-     <a href="#">
-     <div class="card">
-       <div class="box">
-         <img src="images/logos/Gkeep.png" alt="">
-         <div class="text">Google Keep clone</div>
-           <p>using React</p>
-       </div>
-
-     </div>
-     </a>
-     <a href="#">
-     <div class="card">
-       <div class="box">
-         <img src="images/logos/github.png" alt="">
-         <div class="text">Github clone</div>
-           <p>Using Html css</p>
-       </div>
-
-     </div>
-     </a>
-     <a href="#">
-     <div class="card">
-       <div class="box">
-         <img src="images/logos/workinprogress.jpg" alt="">
-         <div class="text">Upcoming project</div>
-           <p>Using</p>
-       </div>
-
-     </div>
-     </a>
-
-   </div>
-
-
- </div>
-</div>
+    </div>
+    </div>
   </section>
+
   <!-- Contact Section -->
   <section class="contact" id="contact">
     <div class="max-width">
-    <h2 class="title">Contact Me</h2>
-    <div class="contact-content">
-      <div class="left column">
-        <div class="text">Get in touch</div>
-          <p>hey u can contact me here if u want to. this is my location
-          near energy park road no.3 nevermind u cant reach me anyway there </p>
+      <h2 class="title">Contact Me</h2>
+      <div class="contact-content">
+        <div class="left column">
+          <div class="text">Get in touch</div>
+          <p>If you would like any further details please feel free to get in touch. You can contact me using these details below or leave me a message here and I will get back to you ASAP. </p>
           <div class="icons">
             <div class="row">
               <i class="fas fa-id-badge icon"></i>
               <div class="info">
                 <div class="head">Name </div>
-                  <div class="sub-title">Sahil Sinha</div>
+                <div class="sub-title">Sahil Sinha</div>
 
               </div>
             </div>
@@ -278,7 +349,7 @@
               <i class="fas fa-map-marker-alt icon"></i>
               <div class="info">
                 <div class="head">Address </div>
-                  <div class="sub-title">East patel nagar, patna</div>
+                <div class="sub-title">East patel nagar, patna</div>
 
               </div>
             </div>
@@ -286,7 +357,7 @@
               <i class="fas fa-envelope icon"></i>
               <div class="info">
                 <div class="head">Email </div>
-                  <div class="sub-title">sahilsinha0206@gmail.com</div>
+                <div class="sub-title">sahilsinha0206@gmail.com</div>
 
               </div>
             </div>
@@ -294,7 +365,7 @@
               <i class="fab fa-linkedin icon"></i>
               <div class="info">
                 <div class="head">LinkedIn </div>
-                  <div class="sub-title"><a href="https://www.linkedin.com/in/sahil-sinha-0b4bba136/">sahil-sinha-0b4bba136</a></div>
+                <div class="sub-title"><a href="https://www.linkedin.com/in/sahil-sinha-0b4bba136/">sahil-sinha-0b4bba136</a></div>
 
               </div>
             </div>
@@ -307,37 +378,38 @@
             <div class="fields">
               <div class="field name">
                 <input type="text" name="name" value="" placeholder="Name" required autocomplete="off">
-                </div>
-               <div class="field email">
-                   <input type="email" name="email" value="" placeholder="Email" required>
-               </div>
-             </div>
+              </div>
+              <div class="field email">
+                <input type="email" name="email" value="" placeholder="Email" required>
+              </div>
+            </div>
 
-               <div class="field">
-                 <input type="text" name="subject" value="" placeholder="Subject" required>
-               </div>
-               <div class="field textarea">
-                 <textarea name="projectdetails" rows="8" cols="80" placeholder="Describe project.." required></textarea>
+            <div class="field">
+              <input type="text" name="subject" value="" placeholder="Subject" required>
+            </div>
+            <div class="field textarea">
+              <textarea name="projectdetails" rows="8" cols="80" placeholder="Describe project.." required></textarea>
 
-               </div>
-               <div class="btn">
-                 <button type="submit" name="button">Send Me</button>
+            </div>
+            <div class="btn">
+              <button type="submit" name="button">Send Me</button>
 
-               </div>
+            </div>
 
           </form>
 
-          </div>
-     </div>
+        </div>
+      </div>
     </div>
-</div>
+    </div>
   </section>
 
- <script src="script.js" charset="utf-8"></script>
-  </body>
-  <footer class="footer">
-    <p>Created by a non-professional develper <span>| copyright 2021</span></p>
-  </footer>
+  <script src="script.js" charset="utf-8"></script>
+</body>
+<footer class="footer">
+  <p><span>© 2021 </span>| Created by Sahil Sinha <span></span></p>
+</footer>
+
 </html>
 
 </video>
