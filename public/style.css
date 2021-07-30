@@ -1061,7 +1061,7 @@ footer span {
   }
 
   .about {
-    height: 950px;
+    height: 1000px;
   }
 
   .about .about-content {
@@ -1070,8 +1070,8 @@ footer span {
   }
 
   .about .about-content .left img {
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
   }
 
   .about .about-content .right {
@@ -1081,12 +1081,11 @@ footer span {
 
   .about .about-content .right .text,
   .about .about-content .right .text span {
-    font-size: 17px;
-    font-weight: 900;
+    font-size: 20px;
   }
 
   .about .about-content .right p {
-    font-size: 17px;
+    font-size: 18px;
   }
 
   .certificate {
@@ -1102,12 +1101,13 @@ footer span {
     margin-bottom: 80px;
   }
 
-  .certificate .certificate-content .certificate-1 {
+  .certificate .certificate-content .certificates{
+    width: 260px;
     margin-top: 0px;
   }
 
   .skills {
-    height: 1250px;
+    height: 1400px;
   }
 
   .skills .skills-content {
@@ -1122,23 +1122,30 @@ footer span {
   .skills .skills-content .left p {
     font-size: 17px;
   }
-
-  .skills .skills-content .right {
-    margin-top: 80px;
-  }
-
-  .skills .skills-content .right .bars {
-    margin-bottom: 25px;
-  }
+.skills .skills-content .skill-carousel{
+  width: 300px;
+}
+.skills .skills-content .skill-carousel .skills-card{
+ width: 250px;
+}
 
   .project {
-    height: 750px;
+    height: 1000px;
+  }
+  .project .project-content .carousel a .card{
+    width: 100%;
   }
 
-  .project .project-content {}
+  .project .project-content .github-content{
+    max-width: 100%;
+  }
+  .project  .github-content .github-left svg{
+      transform: scale(0.8);
+
+    }
 
   .contact {
-    height: 980px;
+    height: 1100px;
   }
 
   .contact .contact-content {
@@ -1168,16 +1175,25 @@ footer span {
 }
 
 @media(max-width: 350px) {
+  .home{
+    height: 700px;
+  }
+  .home .home-content .text-1{
+    font-size: 25px;
+  }
   .home .home-content .text-2 {
-    font-size: 50px;
+    font-size: 45px;
   }
 
   .home .home-content .text-3 {
-    font-size: 27px;
+    font-size: 22px;
+  }
+  .home .home-content span{
+    font-size: 20px;
   }
 
   .about {
-    height: 1000px;
+    height: 1150px;
   }
 
   .about .about-content {
@@ -1197,7 +1213,7 @@ footer span {
 
   .about .about-content .right .text,
   .about .about-content .right .text span {
-    font-size: 21px;
+    font-size: 22px;
   }
 
   .about .about-content .right p {
@@ -1217,12 +1233,13 @@ footer span {
     margin-bottom: 80px;
   }
 
-  .certificate .certificate-content .certificate-1 {
+  .certificate .certificate-content .certificates{
+    width: 260px;
     margin-top: 0px;
   }
 
   .skills {
-    height: 1200px;
+    height: 1600px;
   }
 
   .skills .skills-content {
@@ -1235,21 +1252,32 @@ footer span {
   }
 
   .skills .skills-content .left p {
-    font-size: 17px;
+    font-size: 15px;
   }
-
-  .skills .skills-content .right {
-    margin-top: 100px;
-  }
+.skills .skills-content .skill-carousel{
+  width: 100%;
+}
+.skills .skills-content .skill-carousel .skills-card{
+ width: 15rem;
+}
 
   .project {
-    height: 750px;
+    height: 1000px;
+  }
+  .project .project-content .carousel a .card{
+    width: 100%;
   }
 
-  .project .project-content {}
+  .project .project-content .github-content{
+    max-width: 100%;
+  }
+  .project  .github-content .github-left svg{
+      transform: scale(0.7);
+
+    }
 
   .contact {
-    height: 980px;
+    height: 1100px;
   }
 
   .contact .contact-content {
