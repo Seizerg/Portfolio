@@ -373,7 +373,7 @@ section {
   border-color: #161616;
   cursor: pointer;
 }
-.certificate .certificate-content .certificate{
+.certificate .certificate-content .certificates{
   background: #161616;
   color: #161616;
   border: 3px solid #B2AB8C;
@@ -470,7 +470,7 @@ section {
 .skills .skills-content .skills-card {
   height: 150px;
   width: 200px;
-  background: #B2AB8C ;
+  background: #F4F4F2 ;
   border: 2px solid  #F4F4F2;
   border-radius: 7px;
   margin-left: 20px;
@@ -489,6 +489,7 @@ section {
   width:120px;
   height: 120px;
   border: 1px solid #161616;
+  object-fit: cover;
   border-radius: 50%;
 }
 
@@ -605,6 +606,11 @@ section {
   width: 200px;
   height: 200px;
 }
+.project .github-content .github-right{
+  position: relative;
+  right:120px;
+}
+
 .project .github-content .github-right a.git-btn{
   position: relative;
   text-decoration: none;
@@ -614,6 +620,12 @@ section {
   padding: 10px;
   border-radius: 12px;
   background:#B2AB8C;
+  transition: all 0.3s ease;
+}
+.project .github-content .github-right a.git-btn:hover{
+background: #161616;
+color: #F4F4F2;
+border: 1px solid #B2AB8C;
 }
 
 
@@ -933,48 +945,81 @@ footer span {
   }
 
   .certificate {
-    height: 1400px;
+    height: 1500px;
   }
 
   .certificate .certificate-content {
     flex-direction: column;
-    margin-top: 100px;
   }
+
 
   .certificate .certificate-content a {
+    width: 300px;
+    height:150px;
     margin-bottom: 80px;
   }
+  .certificate .certificate-content .up,.down{
+    display: flex;
+    flex-direction: column;
+  }
+  .certificate .certificate-content .down{
+    left:0;
+  }
 
-  .certificate .certificate-content .certificate-1 {
-    margin-top: 0px;
+  .certificate .certificate-content .certificates {
+    margin-right: 15px;
   }
 
   .skills {
     height: 1200px;
   }
 
-  .skills .skills-content {
-    flex-direction: column;
-  }
-
-  .skills .skills-content .column {
-    width: 80%;
-    ;
-  }
-
   .skills .skills-content .left p {
     font-size: 17px;
   }
-
-  .skills .skills-content .right {
-    margin-top: 100px;
+  .skills .skills-content .skill-carousel{
+    width: 500px;
   }
+  .skills .skills-content .skill-carousel .skills-card{
+    width: 200px;
+  }
+
+
 
   .project {
-    height: 750px;
+    height: 1000px;
   }
 
-  .project .project-content {}
+
+  .project .carousel .card{
+    width: 450px;
+    margin-right: 20px;
+  }
+  .project .carousel .card img{
+    width: 100px;
+    height: 100px;
+  }
+  .project .carousel .card .text{
+    font-size:  16px;
+  }
+  .project .carousel .card  p{
+    font-size: 12px;
+  }
+  .project .github .github-content{
+    flex-direction: column;
+    width:400px;
+    height:300px;
+    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .project .github .github-content .github-right{
+    margin-top: 30px;
+    left:0px;
+  }
+
+
 
   .contact {
     height: 980px;
