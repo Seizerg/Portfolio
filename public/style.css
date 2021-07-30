@@ -1079,13 +1079,16 @@ footer span {
     margin: 80px 16px;
   }
 
-  .about .about-content .right .text,
-  .about .about-content .right .text span {
-    font-size: 20px;
+  .about .about-content .right .text
+   {
+    font-size: 16px;
+  }
+  .about .about-content .right .text span{
+    font-size: 19px;
   }
 
   .about .about-content .right p {
-    font-size: 18px;
+    font-size: 15px;
   }
 
   .certificate {
@@ -1107,7 +1110,7 @@ footer span {
   }
 
   .skills {
-    height: 1400px;
+    height: 95rem;
   }
 
   .skills .skills-content {
@@ -1120,7 +1123,7 @@ footer span {
   }
 
   .skills .skills-content .left p {
-    font-size: 17px;
+    font-size: 15px;
   }
 .skills .skills-content .skill-carousel{
   width: 300px;
