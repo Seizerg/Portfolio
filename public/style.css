@@ -815,7 +815,7 @@ footer span {
     margin-right: 70px;
   }
   .home,.about,.skills,.project,.contact,.certificate,footer{
-    min-width: 1250px;
+    width: 1250px;
   }
 
 
