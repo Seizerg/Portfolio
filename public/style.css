@@ -896,7 +896,9 @@ footer span {
   }
 
   .home {
-    background: #18191A;
+    background: url("images/phonev.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .home .home-content {
