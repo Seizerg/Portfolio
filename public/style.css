@@ -814,9 +814,6 @@ footer span {
   .navbar .menu{
     margin-right: 70px;
   }
-  .home,.about,.skills,.project,.contact,.certificate,footer{
-    width: 1250px;
-  }
 
 
 }
@@ -825,7 +822,6 @@ footer span {
   .max-width {
     padding: 0 50px;
   }
-  .home
 }
 
 @media (max-width: 947px) {
