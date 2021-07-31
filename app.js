@@ -39,7 +39,7 @@ app.post("/", function(req, res) {
   })
   Client.findOne({
     email: email
-  }, function(err, result) {
+  }, function(err , result) {
     if (!err) {
       if (!result) {
         clients.save();
@@ -55,7 +55,7 @@ app.post("/", function(req, res) {
 
 })
 app.post("/download", function(req, res) {
-  res.sendFile(__dirname + "/public/Resume.pdf")
+  res.sendFile(__dirname + "/public/SahilResume.pdf")
 })
 app.post("/certificates", (req, res) => {
   const button = req.body.button;
