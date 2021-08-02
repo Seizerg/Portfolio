@@ -1,0 +1,29 @@
+<a href="#">
+  <div class="card">
+    <div class="box">
+      <img src="images/logos/ecom.jpg" alt="">
+      <div class="text">E-Commerc-clone</div>
+      <p></p>
+    </div>
+
+  </div>
+</a>
+<a href="#">
+  <div class="card">
+    <div class="box">
+      <img src="images/logos/Gkeep.png" alt="">
+      <div class="text">Google Keep clone</div>
+      <p></p>
+    </div>
+
+  </div>
+</a>
+<a href="#">
+  <div class="card">
+    <div class="box">
+      <img src="images/logos/github.png" alt="">
+      <div class="text">Github clone</div>
+    </div>
+
+  </div>
+</a>
