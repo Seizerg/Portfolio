@@ -4,6 +4,7 @@ const mongoose = require("mongoose")
 const body = require("body-parser");
 const app = express();
 const url= "mongodb+srv://"+process.env.DB_USER+":"+process.env.DB_PASSWORD+"@cluster0.ego4z.mongodb.net/clientDB"
+
 mongoose.connect(url, {
   useNewUrlParser: true,
   useUnifiedTopology: true
