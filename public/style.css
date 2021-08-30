@@ -38,7 +38,8 @@ html {
 
 .navbar.sticky {
   padding: 15px 0;
-  background: #161616;
+  background: #151819
+;
 }
 
 .navbar .logo a {
@@ -144,7 +145,8 @@ html {
   display: inline-block;
   background: #B2AB8C;
   border-radius: 6px;
-  color: #161616;
+  color: #151819
+;
   font-size: 25px;
   font-weight: 500;
   padding: 12px 36px;
@@ -155,7 +157,8 @@ html {
 }
 
 .home .home-content a:hover {
-  color: #161616;
+  color: #151819
+;
   background: #F4F4F2;
 }
 
@@ -200,7 +203,8 @@ section {
   height: 18px;
   width: 100px;
   background-color: #F4F4F2;
-  color: #161616;
+  color: #151819
+;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -258,14 +262,16 @@ section {
 }
 
 .about .about-content .right a:hover {
-  color: #161616;
+  color: #151819
+;
   background: none;
 }
 
 /* certificates section */
 .certificate {
   height: 1000px;
-  background: #161616;
+  background: #151819
+;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -301,7 +307,8 @@ section {
   font-weight: 900;
   height: 18px;
   width: 140px;
-  background-color: #161616;
+  background-color: #151819
+;
   color: #F4F4F2;
   bottom: 0;
   left: 50%;
@@ -336,13 +343,15 @@ section {
 .certificate .certificate-content a p {
   font-size: 18px;
   font-weight: 400px;
-  color: #161616;
+  color: #151819
+;
 }
 .certificate .certificate-content a p.date{
   margin-top: 1px;
   font-size: 12px;
   font-weight: 600;
-  color: #161616;
+  color: #151819
+;
 }
 
  .certificate-content a {
@@ -354,7 +363,8 @@ section {
 .certificate-content a button{
   width: 100%;
   height: 100%;
-  background:  #161616;
+  background:  #151819
+;
   transition: all 0.5s ease;
 }
 
@@ -370,12 +380,15 @@ section {
 
 .certificate .certificate-content a button:hover {
   background: #B2AB8C;
-  border-color: #161616;
+  border-color: #151819
+;
   cursor: pointer;
 }
 .certificate .certificate-content .certificates{
-  background: #161616;
-  color: #161616;
+  background: #151819
+;
+  color: #151819
+;
   border: 3px solid #B2AB8C;
   margin-right: 70px;
   box-shadow: 1px 1px 8px 2px  black;
@@ -396,7 +409,8 @@ section {
 }
 
 .skills .title {
-  color: #161616;
+  color: #151819
+;
   position: relative;
   font-family: "Ubuntu", sans-serif;
   font-size: 40px;
@@ -424,7 +438,8 @@ section {
   height: 18px;
   width: 100px;
   background-color: #F4F4F2;
-  color: #161616;
+  color: #151819
+;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -446,14 +461,16 @@ section {
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 40px;
-  color: #161616;
+  color: #151819
+;
 }
 
 .skills .skills-content .left p {
   line-height: 35px;
   text-align: justify;
   font-size: 17px;
-  color: #161616;
+  color: #151819
+;
   font-weight:500;
 }
 
@@ -461,7 +478,8 @@ section {
   margin-top: 50px;
   width: 800px;
   height: 290px;
-  background: #161616;
+  background: #151819
+;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 1px 1px 5px 2px grey;
@@ -488,14 +506,16 @@ section {
 .skills .skills-content .skills-card .skills-box img{
   width:120px;
   height: 120px;
-  border: 1px solid #161616;
+  border: 1px solid #151819
+;
   object-fit: cover;
   border-radius: 50%;
 }
 
 /* project styling */
 .project {
-  background: #161616;
+  background: #151819
+;
   height: 1000px;
   min-height: 500px;
   font-family: "poppins", sans-serif;
@@ -519,7 +539,8 @@ section {
 }
 
 .project .carousel .card {
-  background: #161616;
+  background: #151819
+;
   border-radius: 12px;
   padding: 25px 35px;
   margin-right: 8px;
@@ -595,7 +616,8 @@ section {
 .project .github-content {
   height: 300px;
   width: 1050px;
-  background: #161616;
+  background: #151819
+;
   border-radius: 10px;
   display: flex;
   align-items: center;
@@ -615,7 +637,8 @@ section {
   position: relative;
   text-decoration: none;
   top: 30px;
-  color: #161616;
+  color: #151819
+;
   font-size: 20px;
   padding: 10px;
   border-radius: 12px;
@@ -623,7 +646,8 @@ section {
   transition: all 0.3s ease;
 }
 .project .github-content .github-right a.git-btn:hover{
-background: #161616;
+background: #151819
+;
 color: #F4F4F2;
 border: 1px solid #B2AB8C;
 }
@@ -639,7 +663,8 @@ border: 1px solid #B2AB8C;
 
 .contact .title {
   text-align: center;
-  color: #161616;
+  color: #151819
+;
   position: relative;
   font-family: "Ubuntu", sans-serif;
   font-size: 40px;
@@ -765,7 +790,8 @@ border: 1px solid #B2AB8C;
 
 .contact .right .btn button:hover {
   background: #F4F4F2;
-  color: #161616;
+  color: #151819
+;
 }
 
 .topscroll-btn {
@@ -792,7 +818,8 @@ border: 1px solid #B2AB8C;
 }
 
 footer {
-  background: #161616;
+  background: #151819
+;
   color: #F4F4F2;
   width: 100%;
   height: 40px;
@@ -832,7 +859,8 @@ footer span {
 
   .navbar .menu {
     position: fixed;
-    background: #161616;
+    background: #151819
+;
     height: 100vh;
     width: 100%;
     left: -100%;
@@ -1062,6 +1090,11 @@ footer span {
   .home .home-content .text-2 {
     font-size: 50px;
   }
+  .home {
+    background: url("images/phonev.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
 
   .home .home-content .text-3 {
     font-size: 27px;
@@ -1187,7 +1220,12 @@ footer span {
 @media(max-width: 350px) {
   .home{
     height: 700px;
+    background: url("images/phonev.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
   }
+
   .home .home-content .text-1{
     font-size: 25px;
   }
